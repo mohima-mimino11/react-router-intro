@@ -13,7 +13,7 @@ const Home = () => {
       <h1>This is a home page </h1>
       <Header></Header>
       {
-        navigation.state === 'loading' ? <p>Loading....</p> : <Outlet></Outlet>
+        navigation.state === 'loading' ? <p>Loading.......</p> : <Outlet></Outlet>
       }
       
       <Footer></Footer>
